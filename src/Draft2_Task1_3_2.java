@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Draft1_Task1_3_2 {
+public class Draft2_Task1_3_2 {
     public static void main(String[] args) {
-        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
-                "из двух целых чисел\n\nРешение: ");
+        System.out.println("Задание : \n2.\tНапишите метод, который возвращает наиболее из двух " +
+                "дробных чисел\n\nРешение: ");
             Scanner scanner = new Scanner(System.in);
             System.out.print("Введите первое число: ");
             int x = scanner.nextInt();

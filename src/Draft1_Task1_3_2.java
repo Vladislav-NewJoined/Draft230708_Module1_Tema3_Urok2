@@ -48,6 +48,34 @@ public class Draft1_Task1_3_2 {
 
 
 
+////        Пример 8_2 ППППППППППППППППППППППППППППППППППП  Третий пример из интернета (не работает)
+////  взято отсюда: https://stackru.com/questions/39424334/kak-sdelat-obekt-skanera-staticheskim
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//    }
+//}
+//class spidy {
+//
+//    Scanner input = new Scanner(System.in);             /*DECLARING SCANNER OBJECT OUTSIDE MAIN METHOD i.e Static method */
+//
+//
+//    public void main(String args[]) {
+//
+//        System.out.println("Enter a number");
+//        int n = input.nextInt();
+//    }
+//}
+////        Конец Примера 8_2 КККККККККККККККК
+
+
+
+
+
+
+
 ////        Пример 8 ППППППППППППППППППППППППППППППППППП
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
 //public class Draft1_Task1_3_2 {

@@ -1,30 +1,185 @@
 import java.util.Scanner;
 
-//        Пример _ ППППППППППППППППППППППППППППППППППП
+//        Пример _ ППППППППППППППППППППППППППППППППППП  Второй пример из интернета
+//  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
 public class Draft1_Task1_3_2 {
     public static void main(String[] args) {
         System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
                 "из двух целых чисел\n\nРешение: ");
-        int x=0;
-        int y=0;
-        enterInts();
-        int sum = x + y;
-        System.out.println(sum);
+        Scanner scan = new Scanner(System.in);
+        AnotherReader anotherReader = new AnotherReader(scan);
+        anotherReader.readSomething();
 
     }
-
-    static void enterInts() {
-
-        Scanner scanner = new Scanner(System.in);
-            System.out.print("Введите первое число: ");
-        int x = scanner.nextInt();
-            System.out.print("Введите второе число: ");
-        int y = scanner.nextInt();
+    private static void method(Scanner sc) {
 
     }
 }
+
+
 //        Конец Примера _ КККККККККККККККК
 
+
+
+
+
+
+
+////        Пример 9 ППППППППППППППППППППППППППППППППППП  Пример из интернета подогнал под себя
+////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//        Scanner input = new Scanner(System.in);
+//        CalledClass cC = new CalledClass();
+//
+//        cC.testMethod(input);
+//    }
+//}
+//
+//
+////        Конец Примера 9 КККККККККККККККК
+
+
+
+
+
+
+
+////        Пример 8 ППППППППППППППППППППППППППППППППППП
+////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//        Scanner input = new Scanner(System.in);
+//        CalledClass cC = new CalledClass();
+//
+//        cC.testMethod(input);
+//    }
+//}
+//
+//
+////        Конец Примера 8 КККККККККККККККК
+
+
+
+
+
+
+
+
+////        Пример 7 ППППППППППППППППППППППППППППППППППП
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//        input(5, 7);
+//
+//
+//    }
+//
+//
+//
+//    static Scanner input(int x, int y) {
+//        Scanner input = new Scanner(System.in);
+//        System.out.print("Введите первое число: ");
+//        x = input.nextInt();
+//        System.out.print("Введите второе число: ");
+//        y = input.nextInt();
+//
+//        System.out.println(x + ", " + y);
+//
+//        return input;
+//    }
+//
+////    static Scanner enterInts(Scanner scanner) {
+////
+////        scanner = new Scanner(System.in);
+////            System.out.print("Введите первое число: ");
+////        int x = scanner.nextInt();
+////            System.out.print("Введите второе число: ");
+////        int y = scanner.nextInt();
+////
+////        return(scanner);
+////
+////    }
+//}
+////        Конец Примера 7 КККККККККККККККК
+
+
+
+
+
+
+
+
+////        Пример 6 ППППППППППППППППППППППППППППППППППП
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//    }
+//
+//    private static Scanner input = new Scanner(System.in);
+//
+//    static Scanner enterInts(Scanner scanner) {
+//
+//        scanner = new Scanner(System.in);
+//            System.out.print("Введите первое число: ");
+//        int x = scanner.nextInt();
+//            System.out.print("Введите второе число: ");
+//        int y = scanner.nextInt();
+//
+//        return(scanner);
+//
+//    }
+//}
+////        Конец Примера 6 КККККККККККККККК
+
+
+
+
+
+
+
+
+////        Пример 5 ППППППППППППППППППППППППППППППППППП
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+////        int x=0;
+////        int y=0;
+//        int z = 0;
+//        Scanner scanner = null;
+//        scanner = enterInts(scanner);
+//
+////        int sum = x + y;
+//        System.out.println(z);
+//
+//    }
+//
+//
+//    static Scanner enterInts(Scanner scanner) {
+//
+//        scanner = new Scanner(System.in);
+//            System.out.print("Введите первое число: ");
+//        int x = scanner.nextInt();
+//            System.out.print("Введите второе число: ");
+//        int y = scanner.nextInt();
+//        int z = x + y;
+//
+//        return(scanner);
+//
+//    }
+//}
+////        Конец Примера 5 КККККККККККККККК
 
 
 
@@ -105,7 +260,6 @@ public class Draft1_Task1_3_2 {
 
 
 
-
 ////        Пример 3 ППППППППППППППППППППППППППППППППППП
 //public class Draft1_Task1_3_2 {
 //    public static void main(String[] args) {
@@ -176,7 +330,6 @@ public class Draft1_Task1_3_2 {
 
 
 
-
 ////        Пример 2 ППППППППППППППППППППППППППППППППППП
 //public class Draft1_Task1_3_2 {
 //    public static void main(String[] args) {
@@ -229,6 +382,7 @@ public class Draft1_Task1_3_2 {
 //    }
 //}
 ////        Конец Примера 2 КККККККККККККККК
+
 
 
 

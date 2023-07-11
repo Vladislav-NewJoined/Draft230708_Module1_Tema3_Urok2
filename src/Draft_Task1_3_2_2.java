@@ -1,6 +1,6 @@
 import java.util.Scanner;
 
-public class Draft2_Task1_3_2 {
+public class Draft_Task1_3_2_2 {
     public static void main(String[] args) {
         System.out.println("Задание : \n2.\tНапишите метод, который возвращает наибольшее из двух " +
                 "дробных чисел\n\nРешение: ");

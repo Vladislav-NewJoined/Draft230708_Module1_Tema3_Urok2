@@ -2,7 +2,7 @@ import java.util.Scanner;
 
 //        Пример _ ППППППППППППППППППППППППППППППППППП
 
-public class Draft1_Task1_3_2 {
+public class Draft_Task1_3_2_1 {
     public static void main(String[] args) {
         System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
                 "из двух целых чисел\n\nРешение: ");
@@ -44,7 +44,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 12 ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -69,7 +69,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 11 ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -94,7 +94,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 10 ППППППППППППППППППППППППППППППППППП  Второй пример из интернета _  Работает, но не в main
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -119,7 +119,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 9 ППППППППППППППППППППППППППППППППППП  Пример из интернета подогнал под себя
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -142,7 +142,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 8_2 ППППППППППППППППППППППППППППППППППП  Третий пример из интернета (не работает)
 ////  взято отсюда: https://stackru.com/questions/39424334/kak-sdelat-obekt-skanera-staticheskim
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -170,7 +170,7 @@ public class Draft1_Task1_3_2 {
 
 ////        Пример 8 ППППППППППППППППППППППППППППППППППП Первый пример из интернета
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -193,7 +193,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 7 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -239,7 +239,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 6 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -270,7 +270,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 5 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -309,7 +309,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 4 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -381,7 +381,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 3 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -451,7 +451,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 2 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");
@@ -513,7 +513,7 @@ public class Draft1_Task1_3_2 {
 
 
 ////        Пример 1 ППППППППППППППППППППППППППППППППППП
-//public class Draft1_Task1_3_2 {
+//public class Draft_Task1_3_2_1 {
 //    public static void main(String[] args) {
 //        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
 //                "из двух целых чисел\n\nРешение: ");

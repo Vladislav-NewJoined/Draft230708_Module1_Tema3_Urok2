@@ -1,21 +1,63 @@
 import java.util.Scanner;
 
-//        Пример _ ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
-//  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//        Пример _ ППППППППППППППППППППППППППППППППППП
+
 public class Draft1_Task1_3_2 {
     public static void main(String[] args) {
         System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
                 "из двух целых чисел\n\nРешение: ");
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Введите первое число: ");
+        int x = scanner.nextInt();
+        System.out.print("Введите второе число: ");
+        int y = scanner.nextInt();
 
-        Scanner input = new Scanner(System.in);
-        CalledClass cC = new CalledClass();
+        int max = findMax(x, y);
 
-        cC.testMethod(input);
+        printMax(max);
+    }
 
+    static int findMax(int a, int b) {
+        int maximum;
+        if (a > b) {
+            maximum = a;
+        } else {
+            maximum = b;
+        }
+        return maximum;
+    }
+
+    static int printMax(int max) {
+        System.out.println("Наибольшее число: " + max);
+        return max;
     }
 }
-
 //        Конец Примера _ КККККККККККККККК
+
+
+
+
+
+
+
+
+
+////        Пример 12 ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
+////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//        Scanner input = new Scanner(System.in);
+//        CalledClass cC = new CalledClass();
+//
+//        cC.testMethod(input);
+//
+//    }
+//}
+//
+////        Конец Примера 12 КККККККККККККККК
 
 
 

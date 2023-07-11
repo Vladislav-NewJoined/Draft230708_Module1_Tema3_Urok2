@@ -1,9 +1,9 @@
 import java.util.Scanner;
 
-public class Draft_Task1_3_2_5 {
+public class Draft_Task1_3_2_9 {
     public static void main(String[] args) {
-        System.out.println("Задание : \n5.\tНапишите метод, который возвращает самую длинную из пяти строк" +
-                "\n\nРешение: ");
+        System.out.println("Задание: \n9.  Напишите метод, который принимает массив чисел, а возвращает исходный " +
+                "массив, но без отрицательных чисел\n\nРешение: ");
             Scanner scanner = new Scanner(System.in);
             System.out.print("Введите первую строку: ");
             String s1 = scanner.nextLine();

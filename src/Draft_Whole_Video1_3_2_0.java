@@ -1,4 +1,4 @@
-public class Draft_Whole_Video_1_3_2_0 {
+public class Draft_Whole_Video1_3_2_0 {
     public static void main(String[] args) {
         System.out.println("Задание: \nВведение в методы. Return\n\nРешение: ");
 

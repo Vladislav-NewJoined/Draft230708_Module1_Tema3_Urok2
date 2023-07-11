@@ -1,23 +1,73 @@
 import java.util.Scanner;
 
-//        Пример _ ППППППППППППППППППППППППППППППППППП  Второй пример из интернета
+//        Пример _ ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
 //  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
 public class Draft1_Task1_3_2 {
     public static void main(String[] args) {
         System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
                 "из двух целых чисел\n\nРешение: ");
-        Scanner scan = new Scanner(System.in);
-        AnotherReader anotherReader = new AnotherReader(scan);
-        anotherReader.readSomething();
 
-    }
-    private static void method(Scanner sc) {
+        Scanner input = new Scanner(System.in);
+        CalledClass cC = new CalledClass();
+
+        cC.testMethod(input);
 
     }
 }
 
-
 //        Конец Примера _ КККККККККККККККК
+
+
+
+
+
+
+
+
+
+////        Пример 11 ППППППППППППППППППППППППППППППППППП По первому примеру из интернета _ С Main не работает
+////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//
+//        Scanner input = new Scanner(System.in);
+//        CalledClass cC = new CalledClass();
+//
+//        cC.testMethod(input);
+//
+//    }
+//}
+//
+////        Конец Примера 11 КККККККККККККККК
+
+
+
+
+
+
+
+
+
+////        Пример 10 ППППППППППППППППППППППППППППППППППП  Второй пример из интернета _  Работает, но не в main
+////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
+//public class Draft1_Task1_3_2 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+//                "из двух целых чисел\n\nРешение: ");
+//        Scanner scan = new Scanner(System.in);
+//        AnotherReader anotherReader = new AnotherReader(scan);
+//        anotherReader.readSomething();
+//
+//    }
+//    private static void method(Scanner sc) {
+//
+//    }
+//}
+//
+//
+////        Конец Примера 10 КККККККККККККККК
 
 
 
@@ -76,7 +126,7 @@ public class Draft1_Task1_3_2 {
 
 
 
-////        Пример 8 ППППППППППППППППППППППППППППППППППП
+////        Пример 8 ППППППППППППППППППППППППППППППППППП Первый пример из интернета
 ////  взято отсюда: https://question-it.com/questions/11662514/mozhno-li-kak-nibud-ispolzovat-obekt-scanner-v-drugom-klasse
 //public class Draft1_Task1_3_2 {
 //    public static void main(String[] args) {

@@ -34,6 +34,7 @@ public class Draft_Task1_3_2_9 {
                 getPositives.add(inputs[i]);
 
         }
+        //  Делаем возврат return динамического массива
         return getPositives;
 
 

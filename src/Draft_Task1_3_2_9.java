@@ -4,27 +4,52 @@ import java.util.List;
 import java.util.Scanner;
 
 
-//        Пример _ ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
+////        Пример _ ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
+////  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
+//public class Draft_Task1_3_2_9 {
+//    public static void main(String[] args) {
+//        System.out.println("Задание: \n9.  Напишите метод, который принимает массив чисел, а возвращает исходный " +
+//                "массив, но без отрицательных чисел\n\nРешение: ");
+//        int[] array = {12, 0, -22, 0, 43, 545, -4, -55, 12, 43, 0, -999, -87};
+//        List<Integer> arr2 = new ArrayList<>();
+//
+//
+//        for (int i = 0; i < array.length; i++) {
+//            if (array[i] >= 0)
+//                arr2.add(array[i]);
+//        }
+////        System.out.println(Arrays.toString(new List[]{arr3}));
+////        System.out.println(arr3.toString());
+//        System.out.println(arr2);
+//
+//    }
+//}
+////        Конец Примера _ КККККККККККККККК
+
+
+
+
+
+
+
+//        Пример 8 ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
 //  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
 public class Draft_Task1_3_2_9 {
     public static void main(String[] args) {
-        System.out.println("Задание: \n9.  Напишите метод, который принимает массив чисел, а возвращает исходный " +
-                "массив, но без отрицательных чисел\n\nРешение: ");
-        int[] array = {12, 0, -22, 0, 43, 545, -4, -55, 12, 43, 0, -999, -87};
-        List<Integer> arr2 = new ArrayList<>();
-
-
-        for (int i = 0; i < array.length; i++) {
-            if (array[i] >= 0)
-                arr2.add(array[i]);
-        }
-//        System.out.println(Arrays.toString(new List[]{arr3}));
-//        System.out.println(arr3.toString());
-        System.out.println(arr2);
-
+        int[] ints = getDetails();
+        System.out.println(Arrays.toString(ints));
     }
+    public static int[] getDetails() {
+        int v1 = 30;
+        int v2 = 50;
+        int v3 = 100;
+
+        return new int[] { v1, v2, v3 };
+    }
+
+    // Возвращаем несколько значений из метода в Java
 }
-//        Конец Примера _ КККККККККККККККК
+//        Конец Примера 8 КККККККККККККККК
 
 
 

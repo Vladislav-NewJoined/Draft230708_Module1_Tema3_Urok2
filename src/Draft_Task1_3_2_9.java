@@ -1,10 +1,51 @@
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.List;
-import java.util.Scanner;
 
 
-////        Пример _ ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
+//        Пример _ ППППППППППППППППППППППППППППППППППП Работает, теперь нужно свои данные вписать
+//  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
+public class Draft_Task1_3_2_9 {
+    public static void main(String[] args) {
+        List<Integer> getPositives = getPositives();
+        System.out.println("Исходный массив без отрицательных чисел: " + getPositives.toString());
+    }
+    static List<Integer> getPositives() {
+        int v1 = 0;
+        int v2 = 1;
+        int v3 = 2;
+        int v4 = 3;
+        int v5 = 4;
+        int v6 = -5;
+        int v7 = -6;
+        int v8 = 7;
+
+//        return new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
+        int[] inputs = new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
+        List<Integer> getPositives = new ArrayList<>();
+        System.out.println("Исходный массив: " + Arrays.toString(inputs));
+
+        for (int i = 0; i < inputs.length; i++) {
+            if (inputs[i] >= 0)
+                getPositives.add(inputs[i]);
+
+        }
+        return getPositives;
+
+
+    }
+
+
+}
+//        Конец Примера _ КККККККККККККККК
+
+
+
+
+
+
+
+////        Пример 9 ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
 ////  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
 //public class Draft_Task1_3_2_9 {
 //    public static void main(String[] args) {
@@ -24,7 +65,7 @@ import java.util.Scanner;
 //
 //    }
 //}
-////        Конец Примера _ КККККККККККККККК
+////        Конец Примера 9 КККККККККККККККК
 
 
 
@@ -32,24 +73,30 @@ import java.util.Scanner;
 
 
 
-//        Пример 8 ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
-//  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
-public class Draft_Task1_3_2_9 {
-    public static void main(String[] args) {
-        int[] ints = getDetails();
-        System.out.println(Arrays.toString(ints));
-    }
-    public static int[] getDetails() {
-        int v1 = 30;
-        int v2 = 50;
-        int v3 = 100;
 
-        return new int[] { v1, v2, v3 };
-    }
-
-    // Возвращаем несколько значений из метода в Java
-}
-//        Конец Примера 8 КККККККККККККККК
+////        Пример 8 ППППППППППППППППППППППППППППППППППП Работает, теперь нужно в отдельный метод записать
+////  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
+//public class Draft_Task1_3_2_9 {
+//    public static void main(String[] args) {
+//        int[] ints = getDetails();
+//        System.out.println(Arrays.toString(ints));
+//    }
+//    static int[] getDetails() {
+//        int v1 = 0;
+//        int v2 = 1;
+//        int v3 = 2;
+//        int v4 = 3;
+//        int v5 = 4;
+//        int v6 = -5;
+//        int v7 = -6;
+//        int v8 = 7;
+//
+//        return new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
+//    }
+//
+//
+//}
+////        Конец Примера 8 КККККККККККККККК
 
 
 

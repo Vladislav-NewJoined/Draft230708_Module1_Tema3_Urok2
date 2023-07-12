@@ -3,13 +3,15 @@ import java.util.Arrays;
 import java.util.List;
 
 
-//        Пример _ ППППППППППППППППППППППППППППППППППП Работает, теперь нужно свои данные вписать
+//        Пример _ ППППППППППППППППППППППППППППППППППП СДЕЛАН ОКОНЧАТЕЛЬНО, ОТПРАВЛЕН В ЭТОМ ВИДЕ !!!!!!!!!!!!!!!!!!
 //  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
 public class Draft_Task1_3_2_9 {
     public static void main(String[] args) {
         List<Integer> getPositives = getPositives();
         System.out.println("Исходный массив без отрицательных чисел: " + getPositives.toString());
     }
+
+    //  Создаем метод для обработки исходного массива
     static List<Integer> getPositives() {
         int v1 = 0;
         int v2 = 1;
@@ -20,7 +22,6 @@ public class Draft_Task1_3_2_9 {
         int v7 = -6;
         int v8 = 7;
 
-//        return new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
         int[] inputs = new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
         List<Integer> getPositives = new ArrayList<>();
         System.out.println("Исходный массив: " + Arrays.toString(inputs));

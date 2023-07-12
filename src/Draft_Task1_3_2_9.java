@@ -4,9 +4,12 @@ import java.util.List;
 
 
 //        Пример _ ППППППППППППППППППППППППППППППППППП СДЕЛАН ОКОНЧАТЕЛЬНО, ОТПРАВЛЕН В ЭТОМ ВИДЕ !!!!!!!!!!!!!!!!!!
-//  https://translated.turbopages.org/proxy_u/en-ru.ru.29f25ce8-64adadee-e288e803-74722d776562/https/stackoverflow.com/questions/51447573/fill-array-with-elements-from-another-array
 public class Draft_Task1_3_2_9 {
     public static void main(String[] args) {
+        System.out.println("Задание: \n9.  Напишите метод, который принимает массив чисел, а возвращает исходный " +
+                "массив, но без отрицательных чисел\n\nРешение: ");
+
+        System.out.println("\nМетод getPositives создан. Из него получаем следующие выходные данные:");
         List<Integer> getPositives = getPositives();
         System.out.println("Исходный массив без отрицательных чисел: " + getPositives.toString());
     }

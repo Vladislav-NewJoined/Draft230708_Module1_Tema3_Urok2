@@ -1,10 +1,8 @@
 import java.util.Arrays;
-import java.util.Scanner;
 
 //        Пример _ ППППППППППППППППППППППППППППППППППП
 // Java Program to find maximum in arr[]
 class Draft_Task1_3_2_7 {
-//    static int arr[] = {10, 324, 45, 90, 9808};
 
     // Метод для поиска наибольшего элемента массива.
     static int largest() {
@@ -14,7 +12,7 @@ class Draft_Task1_3_2_7 {
         int v4 = 12405;
         int v5 = 980;
 
-        int arr[] = {v1, v2, v3, v4, v5};  // Или так можно: int[] inputs = new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
+        int arr[] = {v1, v2, v3, v4, v5};  // Или так можно: int[] arr = new int[] { v1, v2, v3, v4, v5, v6, v7, v8 };
         System.out.println("Задаем массив arr[]: " + Arrays.toString(arr));
 
         int i;

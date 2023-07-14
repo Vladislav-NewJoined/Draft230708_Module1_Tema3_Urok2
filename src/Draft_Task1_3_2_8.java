@@ -5,15 +5,14 @@ public class Draft_Task1_3_2_8 {
     public static void main(String[] args) {
         System.out.println("Задание: \n8.  Напишите метод, который принимает три массива, а возвращает массив, " +
                 "сумма элементов которого самая большая\n\nРешение: ");
-        B obj=new B();  //  Объект класса B с методом getMaxSumArray() в нем.
+        Draft_Task1_3_2_8 obj=new Draft_Task1_3_2_8();  //  Объект класса B с методом getMaxSumArray() в нем.
         String returned[]=obj.getMaxSumArray().split(",");
         //  Разделяем значения int и string с помощью "," и сохраняем их в массиве
         int b1 = Integer.parseInt(returned[0]); //  Преобразовываем первое значение в массиве в целое число
     }
-}
+
 
 //  Создаем класс B, и в нём метод getMaxSumArray
-class B {
     public String getMaxSumArray() {
 //        int a=2;           //  Объявляем Integer
 //        String b="hi";     //  Объявляем String

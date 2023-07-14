@@ -4,7 +4,7 @@ import java.util.Scanner;
 
 public class Draft_Task1_3_2_1 {
     public static void main(String[] args) {
-        System.out.println("Задание: \n1.\tНапишите метод, который возвращает наибольшее \n" +
+        System.out.println("Задание: \n1.  Напишите метод, который возвращает наибольшее \n" +
                 "из двух целых чисел\n\nРешение: ");
         Scanner scanner = new Scanner(System.in);
         System.out.print("Введите первое число: ");
